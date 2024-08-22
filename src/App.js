@@ -7,7 +7,7 @@ export default function App() {
       <a href="https://github.com/steph-sketch850">Stephanie Rodriguez</a> and
       is open-sourced on{" "}
       <a href="https://github.com/steph-sketch850/react-weather-pj">GitHub</a>{" "}
-      and hosted on Netlify.
+      and hosted on <a href="https://first-react-pj.netlify.app/">Netlify</a>.
     </footer>
   );
 }
