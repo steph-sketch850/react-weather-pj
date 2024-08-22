@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 export default function App() {
@@ -6,8 +5,9 @@ export default function App() {
     <footer>
       This project was coded by{" "}
       <a href="https://github.com/steph-sketch850">Stephanie Rodriguez</a> and
-      is open-sourced on <a href="">GitHub</a> and hosted on{" "}
-      <a href="">Netlify</a>.
+      is open-sourced on{" "}
+      <a href="https://github.com/steph-sketch850/react-weather-pj">GitHub</a>{" "}
+      and hosted on Netlify.
     </footer>
   );
 }
