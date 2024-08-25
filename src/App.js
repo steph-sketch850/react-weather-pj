@@ -7,12 +7,12 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/steph-sketch850">Stephanie Rodriguez</a>{" "}
-          and is open-sourced on{" "}
+          and is{" "}
           <a href="https://github.com/steph-sketch850/react-weather-pj">
-            GitHub
+            open-sourced on GitHub
           </a>{" "}
-          and hosted on{" "}
-          <a href="https://first-react-pj.netlify.app/">Netlify</a>.
+          and{" "}
+          <a href="https://first-react-pj.netlify.app/">hosted on Netlify</a>
         </footer>
       </div>
     </div>
