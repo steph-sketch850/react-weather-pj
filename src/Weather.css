@@ -1,10 +1,11 @@
 .Weather {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border: 1px solid #dadde1;
     border-radius: 4px;
     color: rgb(135, 135, 135);
     padding: 16px;
 }
+
 
 .Weather h1 {
     font-size: 24px;
