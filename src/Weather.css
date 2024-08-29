@@ -1,17 +1,18 @@
 .Weather {
-    font-family: 'Open Sans', sans-serif;
-    border: 1px solid #dadde1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border: 8px solid #dadde1;
     border-radius: 4px;
-    color: rgb(135, 135, 135);
+    color: rgb(160, 138, 215);
     padding: 16px;
+    background-color: #383245;
 }
 
 
 .Weather h1 {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 100;
     margin: 20px 0 0 0;
-    line-height: 29px;
 }
 
 weather ul {
@@ -23,12 +24,11 @@ weather li {
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
-    list-style: none;
 }
 
 .Weather .temperature {
     font-weight: bold;
-    color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
     font-size: 64px;
     line-height: 64px;
     margin-left: 5px;
@@ -41,11 +41,49 @@ weather li {
 }
 
 .Weather .unit {
-    color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     margin: 10px 0 0 0;
     position: relative;
     top: -34px;
     line-height: 1;
+}
+
+.WeatherInfo .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-6 ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.col-9,
+.col-3 {
+    padding: 0;
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
 }
