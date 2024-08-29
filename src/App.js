@@ -16,7 +16,7 @@ export default function App() {
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="https://first-react-pj.netlify.app/">hosted on Netlify</a>
+          <a href="https://first-react-pj.netlify.app/">hosted on Netlify</a>.
         </footer>
       </div>
     </div>
